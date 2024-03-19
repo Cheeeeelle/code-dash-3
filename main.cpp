@@ -52,7 +52,7 @@ void displayPatientsWithNumbers(Patient* head) {
     Patient* temp = head;
     int count = 1;
     while (temp != nullptr) {
-        cout << count << ". Name: " << temp->name << ", Age: " << temp->age << ", Height: " << temp->height << " cm, Weight: " << temp->weight << " kg, Diagnosis: " << temp->diagnosis << endl;
+        cout << count << ". Name: " << endl;
         temp = temp->next;
         count++;
     }
